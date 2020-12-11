@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper .row {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.row {
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.card {
+  margin: 5px 15px;
+  background-color: #4c2be2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+  height: 250px;
+  width: 425px;
+}
+
+.btn-sm {
+  background-color: white;
+  color: red;
+  font-size: 15px;
+  font-weight: 600;
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 0;
+  margin-left: 225px;
+  margin-right: 0;
+  padding-right: 0;
+  cursor: pointer;
+}
+
+.btn-sm:hover {
+  background-color: red;
+  color: white;
+}
+
+.btn-close {
+  border: 2px solid white;
+  background-color: white;
+  float: right;
+  margin: 15px 25px;
+}
+
+.first-card-content {
+  display: none;
+  height: 570px;
+  width: 1335px;
+  margin-top: 50px;
+  margin-left: 15px;
+  background-color: #4c2be2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first-card-content .card-content-title {
+  padding-top: 40px;
+  padding-left: 20px;
+  color: white;
+  text-align: left;
+}
+
+.first-card-content .text-holder {
+  text-align: justify;
+  color: white;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.first-card-content .img-holder {
+  margin-top: 30px;
+}
+
+.second-card-content {
+  display: none;
+  height: 570px;
+  width: 1335px;
+  margin-top: 50px;
+  margin-left: 15px;
+  background-color: #4c2be2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second-card-content .card-content-title {
+  padding-top: 40px;
+  padding-left: 20px;
+  color: white;
+  text-align: left;
+}
+
+.second-card-content .text-holder {
+  text-align: justify;
+  color: white;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.second-card-content .img-holder {
+  margin-top: 30px;
+}
+
+.third-card-content {
+  display: none;
+  height: 570px;
+  width: 1335px;
+  margin-top: 50px;
+  margin-left: 15px;
+  background-color: #4c2be2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-card-content .card-content-title {
+  padding-top: 40px;
+  padding-left: 20px;
+  color: white;
+  text-align: left;
+}
+
+.third-card-content .text-holder {
+  text-align: justify;
+  color: white;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.third-card-content .img-holder {
+  margin-top: 30px;
+}
+
+.fourth-card-content {
+  display: none;
+  height: 570px;
+  width: 1335px;
+  margin-top: 50px;
+  margin-left: 15px;
+  background-color: #4c2be2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fourth-card-content .card-content-title {
+  padding-top: 40px;
+  padding-left: 20px;
+  color: white;
+  text-align: left;
+}
+
+.fourth-card-content .text-holder {
+  text-align: justify;
+  color: white;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.fourth-card-content .img-holder {
+  margin-top: 30px;
+}
+
+.fifth-card-content {
+  display: none;
+  height: 570px;
+  width: 1335px;
+  margin-top: 50px;
+  margin-left: 15px;
+  background-color: #4c2be2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fifth-card-content .card-content-title {
+  padding-top: 40px;
+  padding-left: 20px;
+  color: white;
+  text-align: left;
+}
+
+.fifth-card-content .text-holder {
+  text-align: justify;
+  color: white;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.fifth-card-content .img-holder {
+  margin-top: 30px;
+}
+
+.sixth-card-content {
+  display: none;
+  height: 570px;
+  width: 1335px;
+  margin-top: 50px;
+  margin-left: 15px;
+  background-color: #4c2be2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sixth-card-content .card-content-title {
+  padding-top: 40px;
+  padding-left: 20px;
+  color: white;
+  text-align: left;
+}
+
+.sixth-card-content .text-holder {
+  text-align: justify;
+  color: white;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.sixth-card-content .img-holder {
+  margin-top: 30px;
+}
+
+.overlay {
+  width: 100%;
+  height: auto;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  z-index: 1;
+}
+/*# sourceMappingURL=main.css.map */
